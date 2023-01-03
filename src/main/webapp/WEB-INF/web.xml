@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+
+	<display-name>ShopeeWeb</display-name>
+
+	<welcome-file-list>
+		<welcome-file>HomeController</welcome-file>
+
+	</welcome-file-list>
+
+
+
+	<!-- <filter> <filter-name>SignInFilter</filter-name> <filter-class>filter.SignInFilter</filter-class> 
+		</filter> <filter-mapping> <filter-name>SignInFilter</filter-name> <url-pattern>/SignInFilter/ManagementController</url-pattern> 
+		</filter-mapping> -->
+
+
+
+</web-app>

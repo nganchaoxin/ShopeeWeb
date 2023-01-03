@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 100%;
+
+}
+main {
+    width: 100%;
+    margin: 10px auto;
+
+}
+main h1 {
+
+}
+main a button {
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #007bff;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+header {
+    margin-left: 10px;
+    width: 70%;
+    display: flex;
+}
+header .h1 {
+    width: 100%;
+    padding: 8px;
+    color: white;
+    background-color: #212529;
+    border-right: 1px solid #666666;
+}
+.main1 {
+    width: 70%;
+    margin-left: 10px;
+    display: flex;
+    color: black;
+}
+.main1 .slide {
+    width: 100%;
+    padding: 4px;
+    line-height: 40px;
+    color: black;
+    border-bottom: 1px solid #666666;
+    border-right: 1px solid #666666;
+}
+
+.main1 .slide:nth-child(4) {
+    display: flex;
+}
+.slide a button {
+    padding: 8px;
+}
+.slide .del button {
+    background: #dc3545;
+}
